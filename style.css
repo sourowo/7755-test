@@ -1,0 +1,49 @@
+/* 設定輸入框的大小和外觀 */
+textarea {
+    width: 100%;
+    height: 200px; /* 調整高度 */
+    font-size: 16px;  /* 字體大小 */
+    padding: 10px;    /* 內邊距 */
+    border: 1px solid #ccc; /* 邊框 */
+    border-radius: 5px; /* 邊角圓滑 */
+    resize: none; /* 禁止調整大小 */
+}
+
+/* 設定按鈕樣式 */
+button {
+    background-color: #4CAF50; /* 按鈕背景色 */
+    color: white; /* 字體顏色 */
+    padding: 10px 20px; /* 內邊距 */
+    border: none; /* 去掉邊框 */
+    border-radius: 5px; /* 圓角 */
+    cursor: pointer; /* 鼠標懸停時顯示手形 */
+    margin-top: 10px; /* 按鈕與其他元素的間距 */
+}
+
+button:hover {
+    background-color: #45a049; /* 鼠標懸停時的背景色 */
+}
+
+/* 設定選項按鈕樣式 */
+.option-btn {
+    background-color: #008CBA; /* 按鈕背景色 */
+    color: white; /* 字體顏色 */
+    padding: 10px 20px; /* 內邊距 */
+    border: none; /* 去掉邊框 */
+    border-radius: 5px; /* 圓角 */
+    cursor: pointer; /* 鼠標懸停時顯示手形 */
+    margin-right: 10px; /* 按鈕之間的間距 */
+    margin-bottom: 10px; /* 按鈕與下一個按鈕的間距 */
+}
+
+.option-btn:hover {
+    background-color: #007B8C; /* 鼠標懸停時的背景色 */
+}
+
+/* 設定訊息提示樣式 */
+#copy-message {
+    color: green; /* 訊息顏色 */
+    font-weight: bold; /* 字體加粗 */
+    margin-top: 10px; /* 上邊距 */
+    display: none; /* 初始隱藏 */
+}
