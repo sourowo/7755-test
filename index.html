@@ -1,0 +1,18 @@
+<h1>點擊複製選項內容</h1>
+
+<div class="options">
+    <button class="option-btn" onclick="copyText('選項一')">選項一</button>
+    <button class="option-btn" onclick="copyText('選項二')">選項二</button>
+    <button class="option-btn" onclick="copyText('選項三')">選項三</button>
+</div>
+
+<div class="input-container">
+    <label for="custom-option">自定義選項：</label>
+    <input type="text" id="custom-option" placeholder="輸入你的選項">
+    <button onclick="addCustomOption()">新增自定義選項</button>
+</div>
+
+<div id="user-options"></div>
+
+<!-- 複製訊息顯示區域 -->
+<div class="copy-message" id="copy-message">已複製！</div>
