@@ -1,0 +1,140 @@
+/* 基本樣式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* 柔和灰色 */
+    color: #333; 
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* 居中容器，設置最大寬度 */
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 標題 */
+h1 {
+    margin-bottom: 20px;
+    color: #444; /* 深灰色標題 */
+}
+
+/* 摺疊區塊 */
+.accordion-btn {
+    background-color: #5a6b67; /* 深灰綠色 */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.accordion-btn:hover {
+    background-color: #4a5c51; /* 更深灰綠色 */
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* 自定義選項 */
+.add-custom-option-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.add-custom-option-container input {
+    padding: 12px;
+    font-size: 16px;
+    width: 220px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.add-custom-option-container button {
+    padding: 12px 24px;
+    background-color: #7f8c8d; /* 柔和灰藍色 */
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.add-custom-option-container button:hover {
+    background-color: #6c7a74; /* 深灰藍色 */
+}
+
+/* 輸入框 */
+textarea {
+    margin-top: 15px;
+    width: 100%;
+    max-width: 650px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    resize: vertical;
+}
+
+/* 按鈕區 */
+.button-container {
+    margin-top: 15px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #8e9a97; /* 灰綠色 */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #7b8b80; /* 更深灰綠色 */
+}
+
+/* 複製提示 */
+#copy-message {
+    display: none;
+    color: #8e9a97; /* 灰綠色 */
+}
+
+/* 響應式設計 - 手機端 */
+@media (max-width: 768px) {
+    .accordion-btn {
+        font-size: 14px;
+    }
+
+    .add-custom-option-container input {
+        width: 180px;
+    }
+
+    .add-custom-option-container button {
+        font-size: 14px;
+    }
+
+    textarea {
+        max-width: 100%;
+    }
+
+    .button-container button {
+        font-size: 14px;
+    }
+}
